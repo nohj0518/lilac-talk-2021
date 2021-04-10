@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: var(--lilac);
   height: 500vh;
 }
 #chat-screen .alt-header {
@@ -7,11 +7,11 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: var(--lilac);
   z-index: 1;
 }
 #chat-screen .status-bar {
-  background-color: #abc1d1;
+  background-color: var(--lilac);
 }
 
 @keyframes fadeIn {
@@ -34,7 +34,7 @@
 }
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: #ad8cad;
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
@@ -78,7 +78,8 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: #876d87;
+  color: white;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;

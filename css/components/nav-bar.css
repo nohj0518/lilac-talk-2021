@@ -15,7 +15,7 @@
   /*자식이 position:absolute를 쓰기 위해서 
   부모 container에서 position:relative를 써야함*/
   position: relative;
-  color: #2e363e;
+  color: #473a47;
 }
 
 @keyframes notificationAnimation {
