@@ -2,14 +2,17 @@
   display: flex;
   justify-content: space-between;
 }
-.icon-row__icon {
+.icon-row__icon,
+.icon-row__icon a {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.icon-row__icon i {
+.icon-row__icon i,
+.icon-row__icon a > i {
   font-size: 35px;
 }
-.icon-row__icon span {
+.icon-row__icon span,
+.icon-row__icon a > span {
   margin-top: 15px;
 }
