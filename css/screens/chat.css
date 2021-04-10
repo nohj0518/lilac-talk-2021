@@ -78,7 +78,7 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: #876d87;
+  background-color: var(--deep-green);
   color: white;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
@@ -105,6 +105,7 @@
 
 .reply .reply__column:first-child {
   width: 10%;
+  color: var(--deep-green);
 }
 .reply .reply__column:last-child {
   width: 90%;
@@ -135,7 +136,8 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--deep-green);
+  color: white;
   border: none;
   width: 30px;
   height: 30px;
