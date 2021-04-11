@@ -1,34 +1,34 @@
 .more-screen .icon-row {
   margin-top: 35px;
 }
-.more-suggestions {
+.more-news {
   margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
-.more-suggestions__title {
-  margin-bottom: 30px;
+.more-news__title {
+  margin-bottom: 25px;
 }
-.more-suggestions__icons {
+.more-news__component {
   display: flex;
-}
-.more-suggestions__icon {
-  margin-right: 30px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 1px 1px 15px -5px var(--gray);
+  margin-bottom: 20px;
 }
-.more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.more-news__component-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 60px;
+  margin-right: 10px;
+}
+.more-news__component-title {
+  font-weight: 700;
   margin-bottom: 10px;
 }
-.more-suggestions__icon-image i {
-  color: white;
-  font-size: 32px;
+.more-news__component-text {
+  margin-top: 5px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
 }
