@@ -63,6 +63,9 @@
   border-top-left-radius: 0px;
   margin-right: 5px;
 }
+.message__bubble p:first-child {
+  margin-bottom: 15px;
+}
 .message__bubble p {
   margin: 15px 0px;
 }
