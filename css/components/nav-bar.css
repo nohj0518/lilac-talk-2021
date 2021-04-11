@@ -5,7 +5,9 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box; /*padding은 주고 싶은데 박스 크기가 늘어나는걸 원하지 않을때 사용*/
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 1px 1px 15px -5px var(--gray);
 }
 .nav__list {
   display: flex;
