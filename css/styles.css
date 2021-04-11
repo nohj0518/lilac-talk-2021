@@ -23,15 +23,9 @@
 
 body {
   color: #473a47;
-  height: 200vh;
-  font-family: "Dancing Script", cursive;
-  font-family: "Roboto", "Nanum Gothic", sans-serif;
-}
-
-#splash-screen {
-  font-family: "Dancing Script", cursive;
+  height: 100vh;
 }
 
 .main-screen {
-  padding: 0px var(--horizontal-space);
+  padding: 0px var(--horizontal-space) 78px var(--horizontal-space);
 }
