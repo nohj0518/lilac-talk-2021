@@ -1,284 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
     </style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends - Kokoa Clone</title>
-</head>
-<body>
-    <div class = "status-bar">
-        <div class = "status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class = "status-bar__column">
-            <span>03:25</span>
-        </div>
-        <div class = "status-bar__column">
-            <span>100%</span>
-            <i class="fas fa-battery-full fa-2x"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>03:25</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
-        </div>
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
     </header>
 
-    <a id = "friends-display-link">
-        <i class="fas fa-info-circle"></i> Where are you going? <i class="fas fa-chevron-right fa-xs"></i>
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Where are you going?
+      <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
     <main class="friends-screen">
-        <div class ="user-component">
-            <div class="user-component__column">
-                <img src="iuimg/tweetie.png" class="user-component__avatar user-component__avatar--xl"/>
-                <div class= "user-component__text">
-                    <h4 class="user-component__title">이지은</h4>
-                   <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
-                </div>
-            </div>
+      <div class="user-component">
         <div class="user-component__column">
-            <div class="hvr-bubble-float-left">
-                Like!
-            </div>
+          <img
+            src="iuimg/tweetie.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">이지은</h4>
+            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+          </div>
         </div>
+        <div class="user-component__column">
+          <div class="hvr-bubble-float-left">Like!</div>
         </div>
-        <div class="friends-screen__channel">
-            <div class = "friends-screen__channel-header">
-                <span>Album List</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/the-spring-of-twenty.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">The Spring of Twenty</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>1</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-                
-            </div>
-                
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/modern-times.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Modern Times</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-                
-            </div>
-                
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/modern-times-epilogue.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Modern Times-Epilogue</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>3</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/a-flower-bookmark.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">A Flower Bookmark</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>4</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/heart.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Heart</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>5</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/chat-shire.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">CHAT-SHIRE</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>6</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/palette.png" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Palette</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>7</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/a-flower-bookmark-pt2.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">A Flower Bookmark, Pt.2</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>8</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/bbibbi.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">BBIBBI</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>9</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/love-poem.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Love Poem</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>10</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/eight.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Eight</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>11</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-            <div class ="user-component shadow-drop-2-center">
-                <div class="user-component__column">
-                    <img src="iuimg/lilac.jfif" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class= "user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">LILAC</h4>
-                    </div>
-                </div>
-            <div class="user-component__column">
-                <div>
-                    <span>12</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-            </div>
-
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Album List</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
         </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/the-spring-of-twenty.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                The Spring of Twenty
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>1</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/modern-times.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Modern Times
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/modern-times-epilogue.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Modern Times-Epilogue
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>3</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/a-flower-bookmark.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                A Flower Bookmark
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>4</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/heart.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Heart
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>5</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/chat-shire.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                CHAT-SHIRE
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>6</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/palette.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Palette
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>7</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/a-flower-bookmark-pt2.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                A Flower Bookmark, Pt.2
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>8</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/bbibbi.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                BBIBBI
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>9</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/love-poem.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Love Poem
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>10</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/eight.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Eight
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>11</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component shadow-drop-2-center">
+          <div class="user-component__column">
+            <img
+              src="iuimg/lilac.jfif"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                LILAC
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>12</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-    
-
-    <nav class = "nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class = "nav__link" href="friends.html">
-                    <i class="fas fa-user fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class = "nav__link" href="chats.html">
-                    <span class ="nav__notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class = "nav__link" href="find.html">
-                    <i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__btn">
-                <a class = "nav__link" href="more.html">
-                    <span class = "nav__reddot">.</span>
-                    <i class="fas fa-ellipsis-h fa-2x"></i>
-                </a>
-            </li>
-        </ul>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__reddot">.</span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
 
-    <div id= "splash-screen">
-        <i class="fas fa-comment rubberBand animated">
-            <span>
-                Lilac Talk
-            </span>
-        </i>
-        
+    <div id="splash-screen">
+      <i class="fas fa-comment rubberBand animated">
+        <span> Lilac Talk </span>
+      </i>
     </div>
 
     <div id="no-mobile">
-        <span>Your screen is too big ㅠㅠ</span>
+      <span>Your screen is too big ㅠㅠ</span>
     </div>
-  
-  
-    <script
-        src="https://kit.fontawesome.com/6478f529f2.js"
-    ></script>
-</body>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"></script>
+  </body>
 </html>
